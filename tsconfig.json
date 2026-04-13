@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "noEmit": true,
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "sourceMap": true,
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true,
+    "jsx": "react-jsx",
+    "lib": ["DOM", "ES2022"],
+    "types": ["node"]
+  },
+  "include": ["src", "forge.config.ts", "vite.*.config.mts", "forge.env.d.ts"]
+}

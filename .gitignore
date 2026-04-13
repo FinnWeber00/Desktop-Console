@@ -1,0 +1,57 @@
+﻿# Dependencies
+node_modules/
+package-lock.json.tmp
+pnpm-lock.yaml.tmp
+
+# Build outputs
+.vite/
+out/
+dist/
+release/
+temp-electron-forge/
+.cache/
+output/
+coverage/
+version/
+
+# Logs and temp files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+__packaged-log*.txt
+*.tmp
+*.temp
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional local test artifacts
+playwright-report/
+test-results/
+
+# SQLite and runtime caches generated outside source control
+*.db-shm
+*.db-wal
+
+# Local release folder and private planning docs
+/version/
+/产品设计方案文档.md
+/低保真UI原型说明.md
+/开发日志.md
+/技术选型方案文档.md
+/数据库建表SQL与IPC接口清单.md
+/需求文档.md

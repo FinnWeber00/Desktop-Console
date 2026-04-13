@@ -1,0 +1,7 @@
+interface:
+  display_name: "Desktop Console Standards"
+  short_description: "Rules for building the Electron desktop console project."
+  default_prompt: "Use $desktop-console-dev-standards to implement or review changes for this desktop console project."
+
+policy:
+  allow_implicit_invocation: true

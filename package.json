@@ -1,0 +1,64 @@
+{
+  "name": "desktop-console",
+  "productName": "Desktop Console",
+  "version": "1.0.2",
+  "description": "A local-first desktop console for managing websites and desktop applications.",
+  "main": ".vite/build/main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "electron",
+    "react",
+    "typescript",
+    "desktop",
+    "launcher"
+  ],
+  "author": {
+    "name": "Zeng Tianle"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "12.8.0",
+    "electron-squirrel-startup": "^1.0.1",
+    "i18next": "^26.0.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-i18next": "^17.0.2",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.11.1",
+    "@electron-forge/maker-deb": "^7.11.1",
+    "@electron-forge/maker-rpm": "^7.11.1",
+    "@electron-forge/maker-squirrel": "^7.11.1",
+    "@electron-forge/maker-zip": "^7.11.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.11.1",
+    "@electron-forge/plugin-fuses": "^7.11.1",
+    "@electron-forge/plugin-vite": "^7.11.1",
+    "@electron/fuses": "^1.8.0",
+    "@eslint/js": "^9.39.1",
+    "@tailwindcss/vite": "^4.2.2",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/electron-squirrel-startup": "^1.0.2",
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@typescript-eslint/eslint-plugin": "^8.46.1",
+    "@typescript-eslint/parser": "^8.46.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "electron": "^41.2.0",
+    "eslint": "^9.39.4",
+    "eslint-plugin-import": "^2.32.0",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.46.1",
+    "vite": "^5.4.21"
+  }
+}
