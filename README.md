@@ -195,4 +195,6 @@ For full packaging instructions, see [docs/App-Packaging-Guide-English.md](./doc
 
 ## License
 
-MIT
+This project is open-sourced for learning and non-commercial use only.
+Commercial use is strictly prohibited.
+本项目开源仅供学习与非商业用途，**禁止商用**。
